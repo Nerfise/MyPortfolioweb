@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/035040b818.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div id="header">
+        <div class="container">
+        <nav id="navbar">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      <div class="header-text">
+      <p>Web Developer</p>
+      <h1>Hi, I'm <span> Gabriel</span><br>Nipal from Philippines</h1>
+        </div>
+      </div>
+     </div>
+ <!-- ------about----- -->
+  <div id="about">
+    <div class="container">
+     <div class="row">
+        <div class="about-col-1">
+            <img src="images/image 1.jpg" >
+     </div>
+        <div class="about-col-2">
+         <h1 class="sub-tittle">About Me</h1>
+         <p>Hello, My name is Gabriel Nipal.  19 years old from Cabilocaan Calasiao Pangasinan,
+             I am currently 3rd year student in Phinma University of Pangasinan 
+             taking bachelor of science Information and Technology.  I'am a web developer, 
+             A skilled professional who plays a pivotal role in shaping the digital landscape.</p>
+            
+           
+         <div class="tab-titles">
+         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+         <p class="tab-links" onclick="opentab('experience')">Experience</p>
+         <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab " id="skills">
+          <ul>
+            <li><span>Web Developer</span><br>Creating and Designing Website</li>
+            <li><span>App Developer</span><br>Creating Android/IOS App</li>
+          </ul>
+           </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Beginner</span><br>Creating Calculator and ATM Machine using c++</li>
+              <li><span>Web Developer</span><br>Creating Food ordering website using Visual Studio</li>
+              <p>Creating own Portfolio using Visual studio</p>
+              <li><span>App Developer</span><br>Creating Android/IOS App using visual Studio</li>
+            </ul>
+             </div>
+             <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Junior High School</span><br>Bued National High School</li>
+                <li><span>Senior High School</span><br>University of Pangasinan </li>
+                <li><span>College</span><br>University of Pangasinan</li>
+              </ul>
+               </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- ------services----- -->
+   <div id="services">
+    <div class="container"> 
+      <h1 class="sub-tittle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>WEb Designer</h2>
+          <p>Hello, My name is Gabriel Nipal.
+             I have little experience in Designing a website  using Visual Studio Code </p>
+            
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>WEb Developer</h2>
+          <p>Hello, My name is Gabriel Nipal. 
+            I have experience in creating a website using Visual Studio Code </p>
+            
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Developer</h2>
+          <p>Hello, My name is Gabriel  Nipal. 
+           I have experience in making App using Android Studio</p>
+            
+            <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- ------Portfolio----- -->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-tittle">My Work</h1>
+      <div class="work-list">
+       <div class="work">
+        <img src="images/work 1.png">
+        <div class="layer">
+          <h3>Cite</h3>
+          <p>this  is simple work with my groupmates that is a history of the event of Cite in 2022 </p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="images/work 2.png">
+        <div class="layer">
+          <h3>Food Hub</h3>
+          <p>this  is a a {non-functional} food ordering page by using external CSS</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="images/work 3.png">
+        <div class="layer">
+          <h3>Food</h3>
+          <p>this  is simple and functioning food ordering</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+    <!-- ------Contact----- -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-regular fa-paper-plane"></i> gabbymanzano11@gmail.com</p>
+              <p><i class="fa-solid fa-phone-volume"></i> 09951151389</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/gab.nipal?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/Nerfise17"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/nerf_ice/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet" >
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit"class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+         <p>copyright © Nipal, Gabriel</p> 
+        </div>
+      </div>
+
+
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+   </script>
+
+   <script>
+
+   var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemeu.style.right = "0";
+    }
+    function closemenu(){
+      sidemeu.style.right = "-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqOAOffDS7TYyYLsaNsFKb_FPNvZcQa53RkeNbiJaUWV25l6jksY1YHKhjwMlc2G1T/exec'
+      const form = document.forms['submit-to-google-sheet']
+
+      const msg =document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message successfully"
+          setTimeout(function(){
+            msg.innerHTML= ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+   </script>
+   </body>
+</html>
